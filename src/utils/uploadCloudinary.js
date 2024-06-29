@@ -8,7 +8,7 @@ const uploadImageToCloudinary = async (file) => {
   uploadData.append("cloud_name", "rishabhjain");
 
   const res = await fetch(
-    `https://api.cloudinary.com/v1_1/${cloud_name}/image/upload`,
+    `https://api.cloudinary.com/v1_1/rishabhjain/image/upload`,
     {
       method: "post",
       body: uploadData,
